@@ -1,0 +1,36 @@
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\bin\Debug\BookStore.exe.config
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\bin\Debug\BookStore.exe
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\bin\Debug\BookStore.pdb
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\bin\Debug\Db4objects.Db4o.dll
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\BookStoreGUI.AddNewItemForm.resources
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\BookStoreGUI.WorkInProgressForm.resources
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\BookStoreGUI.BookDetails.resources
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\BookStoreGUI.BookQueryControl.resources
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\BookStoreGUI.BookSelectForm.resources
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\BookStoreGUI.MainForm.resources
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\BookStoreGUI.MultipleInstancesErrorForm.resources
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\BookStoreGUI.OptionsForm.resources
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\BookStoreGUI.RenameItemForm.resources
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\ResGen.read.1.tlog
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\ResGen.write.1.tlog
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\BookStore.exe
+C:\Users\Panthom Assasin\Documents\Visual Studio 2010\Projects\Sources\BookStore\obj\Debug\BookStore.pdb
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\bin\Debug\BookStore.exe.config
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\BookStore.exe
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\BookStore.pdb
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\bin\Debug\BookStore.exe
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\bin\Debug\BookStore.pdb
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\bin\Debug\Db4objects.Db4o.dll
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\BookStoreGUI.AddNewItemForm.resources
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\BookStoreGUI.WorkInProgressForm.resources
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\BookStoreGUI.BookDetails.resources
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\BookStoreGUI.BookQueryControl.resources
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\BookStoreGUI.BookSelectForm.resources
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\BookStoreGUI.MainForm.resources
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\BookStoreGUI.MultipleInstancesErrorForm.resources
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\BookStoreGUI.OptionsForm.resources
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\BookStoreGUI.RenameItemForm.resources
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\ResGen.read.1.tlog
+C:\Users\Panthom Assasin\Desktop\Bookstore Email\Project\BookStore\obj\Debug\ResGen.write.1.tlog

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A66ED043-8590-4944-88C4-F3D8EF8188B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BookStoreGUI</RootNamespace>
+    <AssemblyName>BookStore</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <StartupObject>BookStoreGUI.Program</StartupObject>
+    <ApplicationIcon>BookStore.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>http://localhost/BookStore/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Db4objects.Db4o, Version=7.4.88.12908, Culture=neutral, PublicKeyToken=6199cd4f203aa8eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Db4objects.Db4o.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BookEntities\BookMetaData\IBookMetaData.cs" />
+    <Compile Include="BookEntities\BooksManager.cs" />
+    <Compile Include="BookEntities\BooksData\BooksData.cs" />
+    <Compile Include="BookEntities\SearchEngine\QueryDataCategory\AuthorsQueryDataCategory.cs" />
+    <Compile Include="BookEntities\SearchEngine\QueryDataCategory\IQueryDataCategory.cs" />
+    <Compile Include="BookEntities\SearchEngine\QueryDataCategory\PublishingHousesQueryDataCategory.cs" />
+    <Compile Include="BookEntities\SearchEngine\QueryDataCategory\TagsQueryDataCategory.cs" />
+    <Compile Include="BookEntities\SearchEngine\QueryDataCategory\YearsOfPublishingQueryDataCategory.cs" />
+    <Compile Include="BookEntities\SearchEngine\QueryType\ANDQueryType.cs" />
+    <Compile Include="BookEntities\SearchEngine\QueryType\IQueryType.cs" />
+    <Compile Include="BookEntities\SearchEngine\QueryType\ORQueryType.cs" />
+    <Compile Include="BookEntities\SearchEngine\SetOperations.cs" />
+    <Compile Include="BookStoreGUI\Forms\AddNewItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookStoreGUI\Forms\AddNewItemForm.designer.cs">
+      <DependentUpon>AddNewItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookStoreGUI\AuxiliaryTypes.cs" />
+    <Compile Include="BookStoreGUI\BackgroundGUITask\BackgroundTask.cs" />
+    <Compile Include="BookStoreGUI\BackgroundGUITask\WorkInProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookStoreGUI\BackgroundGUITask\WorkInProgressForm.designer.cs">
+      <DependentUpon>WorkInProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookStoreGUI\Controls\BookDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BookStoreGUI\Controls\BookDetails.designer.cs">
+      <DependentUpon>BookDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookStoreGUI\Controls\BookQueryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BookStoreGUI\Controls\BookQueryControl.designer.cs">
+      <DependentUpon>BookQueryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookStoreGUI\Forms\BookSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookStoreGUI\Forms\BookSelectForm.Designer.cs">
+      <DependentUpon>BookSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookStoreGUI\BooksListOperations.cs" />
+    <Compile Include="BookStoreGUI\Forms\MainFrom\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookStoreGUI\Forms\MainFrom\MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookStoreGUI\Forms\MainFrom\AddBooksTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookStoreGUI\Forms\MainFrom\SearchForBooksTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookStoreGUI\Forms\MainFrom\ViewBooksTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookStoreGUI\Forms\MultipleInstancesErrorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookStoreGUI\Forms\MultipleInstancesErrorForm.designer.cs">
+      <DependentUpon>MultipleInstancesErrorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookStoreGUI\Forms\OptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookStoreGUI\Forms\OptionsForm.designer.cs">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookStoreGUI\Forms\RenameItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookStoreGUI\Forms\RenameItemForm.Designer.cs">
+      <DependentUpon>RenameItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RegistryAccess\RegistryHandler.cs" />
+    <Compile Include="DataAccess\DBConfiguration\DBConfiguration.cs" />
+    <Compile Include="Exceptions\RegistryAccessException.cs" />
+    <Compile Include="Exceptions\DatabaseException.cs" />
+    <Compile Include="DataAccess\DatabaseManager.cs" />
+    <Compile Include="DataAccess\IQueryAction\IQueryAction.cs" />
+    <Compile Include="DataAccess\IQueryAction\NativeQueryAction.cs" />
+    <Compile Include="DataAccess\IQueryAction\QueryByExampleAction.cs" />
+    <Compile Include="DataAccess\IUpdateAction\ActivateAction.cs" />
+    <Compile Include="DataAccess\IUpdateAction\DeactivateAction.cs" />
+    <Compile Include="DataAccess\IUpdateAction\DeleteAction.cs" />
+    <Compile Include="DataAccess\IUpdateAction\DummyAction.cs" />
+    <Compile Include="DataAccess\IUpdateAction\IUpdateAction.cs" />
+    <Compile Include="DataAccess\IUpdateAction\UpdateStoreAction.cs" />
+    <Compile Include="BookEntities\BooksData\Book.cs" />
+    <Compile Include="BookEntities\BookMetaData\Author.cs" />
+    <Compile Include="BookEntities\BookMetaData\PublishingHouse.cs" />
+    <Compile Include="BookEntities\BookMetaData\Tag.cs" />
+    <Compile Include="BookEntities\BookMetaData\YearOfPublishing.cs" />
+    <Compile Include="Exceptions\BookEntitiesException.cs" />
+    <Compile Include="DiscAccess\ByteArray.cs" />
+    <Compile Include="DiscAccess\CustomBuffer.cs" />
+    <Compile Include="DiscAccess\File.cs" />
+    <Compile Include="DiscAccess\Folder.cs" />
+    <Compile Include="DiscAccess\IDiscEntry.cs" />
+    <Compile Include="DataAccess\DBConfiguration\DBSpecificConfiguration.cs" />
+    <Compile Include="Exceptions\DiscAccessException.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BookStoreGUI\Forms\AddNewItemForm.resx">
+      <DependentUpon>AddNewItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookStoreGUI\BackgroundGUITask\WorkInProgressForm.resx">
+      <DependentUpon>WorkInProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookStoreGUI\Controls\BookDetails.resx">
+      <DependentUpon>BookDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookStoreGUI\Controls\BookQueryControl.resx">
+      <DependentUpon>BookQueryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookStoreGUI\Forms\BookSelectForm.resx">
+      <DependentUpon>BookSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookStoreGUI\Forms\MainFrom\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookStoreGUI\Forms\MultipleInstancesErrorForm.resx">
+      <DependentUpon>MultipleInstancesErrorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookStoreGUI\Forms\OptionsForm.resx">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookStoreGUI\Forms\RenameItemForm.resx">
+      <DependentUpon>RenameItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BookStore.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
